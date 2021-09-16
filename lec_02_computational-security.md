@@ -443,7 +443,7 @@ For every function $Eve:\{0,1\}^m \rightarrow \{0,1\}$, let $p_X = \Pr[ Eve(X)=1
 
 Then the probability that $Eve$ wins the game is:
 
-$$\Pr[ b=0] p_X + \Pr[b=1](1-p_Y)$$
+$$\Pr[ b=1] p_X + \Pr[b=0](1-p_Y)$$
 
 and since $\Pr[b=0]=\Pr[b=1]=1/2$ this is
 
